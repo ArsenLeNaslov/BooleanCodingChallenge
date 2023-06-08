@@ -1,0 +1,85 @@
+/* Background */
+body{
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+*{
+    margin: 0px;
+}
+
+h2{
+    display: inline-block;
+}
+
+nav > button:hover{
+    color: #1EC31E;
+}
+
+
+/* Overlapping Window - Transparent Menu */
+.overlapping_window{
+    width: 980px;
+    height: 660px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 110px;
+}
+
+/* Brand Logo & Page Title - Company Motto */
+header{
+    color: #00dd30;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Available Action Buttons */
+nav{
+    background-color: #00DD00;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Scooters */
+.scooter{
+    font-family: "Poppins", sans-serif;
+    margin: 25px 0px 25px 0px;
+}
+
+.scooter > p{
+    font-family: "Poppins", sans-serif;
+    margin: 6px 0px 6px 0px;
+    
+}
+
+/* Scooter charge bar statuses */
+#charge_status{
+    background-color: #F5B453;
+    width: 32%;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 15px;
+}
+
+#charge_status2{
+    background-color: #1EC31E;
+    width: 56%;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 15px;
+}
+
+#charge_status3{
+    background-color: #BE4141;
+    width: 11%;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 15px;
+}
